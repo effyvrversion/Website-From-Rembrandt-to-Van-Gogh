@@ -1,0 +1,39 @@
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var container = document.getElementById('example5.5');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'City' });
+    dataTable.addColumn({ type: 'string', id: 'Name' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+          [ 'City','Hague(27)', new Date(1881, 11, 10), new Date(1883, 9, 10) ],
+          [ 'City','Scheveningen(1)',  new Date(1882, 8, 10),  new Date(1882, 8, 31) ],
+          [ 'City','Nieuw Amsterdam(3)', new Date(1883, 9, 10), new Date(1883, 9, 10) ],
+          [ 'City','Drenthe(3)',  new Date(1883, 10, 10),  new Date(1883, 10, 30) ],
+          [ 'City','Nuenen(193)', new Date(1884, 1, 10), new Date(1885, 11, 10) ],
+          [ 'City','Amsterdam(1)',  new Date(1885, 10, 10),  new Date(1885, 10, 30) ],
+          [ 'City','Antwerp(7)',  new Date(1885, 12, 10),  new Date(1885, 12, 31) ],
+          [ 'City','Paris(227)', new Date(1886, 2,10), new Date(1888, 2, 10) ],
+          [ 'City','Arles(186)', new Date(1888, 2, 10), new Date(1889, 4, 10) ],
+          [ 'City','Saint-Remy(139)', new Date(1889, 5, 10), new Date(1890, 5, 10) ],
+          [ 'City','Auvers-sur-Oise(76)', new Date(1890, 5, 10), new Date(1890, 7, 10) ]
+        ]);
+
+    var options = {
+      colors: ['#3b372e', '#414141', '#111619','#60614f','#848776','#81b9de','#e2d65e','#88b1a9','#a9ad60','#726c54','#71726d'],
+      backgroundColor: '#d1d5c0',
+    };
+    
+    chart.draw(dataTable, options);
+  }
+
+</script>
+
+<div id="example5.5" style="height: 150px;"></div>

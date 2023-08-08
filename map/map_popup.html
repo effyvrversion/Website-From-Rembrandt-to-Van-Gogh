@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_456d12395a31ee41222aa70c181a9f7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_456d12395a31ee41222aa70c181a9f7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_456d12395a31ee41222aa70c181a9f7c = L.map(
+                "map_456d12395a31ee41222aa70c181a9f7c",
+                {
+                    center: [50.5, 4.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c3c19e95a8e2627471cebd4821e796b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+            var circle_marker_179933c052427969980daf87cff8d705 = L.circleMarker(
+                [51.4793455, 5.5426001],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_5000ad5c0d56f5730b0368a8b00cd743 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1ae9e4df8c16e892470d80dbdf7f29ee = $(`<div id="html_1ae9e4df8c16e892470d80dbdf7f29ee" style="width: 100.0%; height: 100.0%;"><h4>Nuenen: The Potato Eaters(1885)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project.jpg" width="200px"></div>`)[0];
+                popup_5000ad5c0d56f5730b0368a8b00cd743.setContent(html_1ae9e4df8c16e892470d80dbdf7f29ee);
+            
+        
+
+        circle_marker_179933c052427969980daf87cff8d705.bindPopup(popup_5000ad5c0d56f5730b0368a8b00cd743)
+        ;
+
+        
+    
+    
+            var circle_marker_c01a030769c942fb2f49d7531db4dfa4 = L.circleMarker(
+                [43.6766476, 4.6277763],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_16259b060d9ed578c6089b655865c07c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d98bb0db9a01fc6f6d50549c968d8f60 = $(`<div id="html_d98bb0db9a01fc6f6d50549c968d8f60" style="width: 100.0%; height: 100.0%;"><h4>Arles: Starry Night Over the Rhone(1888)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Starry_Night_Over_the_Rhone.jpg" width="200px"></div>`)[0];
+                popup_16259b060d9ed578c6089b655865c07c.setContent(html_d98bb0db9a01fc6f6d50549c968d8f60);
+            
+        
+
+        circle_marker_c01a030769c942fb2f49d7531db4dfa4.bindPopup(popup_16259b060d9ed578c6089b655865c07c)
+        ;
+
+        
+    
+    
+            var circle_marker_f4a216da0a054401861494c220224c4a = L.circleMarker(
+                [43.7884802, 4.8318786],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_ebc8f5c5f172edbe9672cae02c9368e5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f50886eceadf141800ba2bacf964b646 = $(`<div id="html_f50886eceadf141800ba2bacf964b646" style="width: 100.0%; height: 100.0%;"><h4>Saint-Rémy: The Bedroom(1889)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg" width="200px"></div>`)[0];
+                popup_ebc8f5c5f172edbe9672cae02c9368e5.setContent(html_f50886eceadf141800ba2bacf964b646);
+            
+        
+
+        circle_marker_f4a216da0a054401861494c220224c4a.bindPopup(popup_ebc8f5c5f172edbe9672cae02c9368e5)
+        ;
+
+        
+    
+    
+            var circle_marker_e0885612edda399459602fc31e976125 = L.circleMarker(
+                [49.0711875, 2.1700326],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_496fe33f049f5b8151e663a18fde6431 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_376246a49ccba0f1d80e8a5916e646c4 = $(`<div id="html_376246a49ccba0f1d80e8a5916e646c4" style="width: 100.0%; height: 100.0%;"><h4>Auvers-sur-Oise: Poppy Field(1890)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Vincent_van_Gogh_-_Poppy_field_-_Google_Art_Project.jpg" width="200px"></div>`)[0];
+                popup_496fe33f049f5b8151e663a18fde6431.setContent(html_376246a49ccba0f1d80e8a5916e646c4);
+            
+        
+
+        circle_marker_e0885612edda399459602fc31e976125.bindPopup(popup_496fe33f049f5b8151e663a18fde6431)
+        ;
+
+        
+    
+    
+            var circle_marker_5d0b4f92a8ef703fe39158fa68e1cfac = L.circleMarker(
+                [51.2211097, 4.3997081],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_f37f6df05d69745ffa6ef8ed2215284d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_258b0ad1ab7a6c25775a9b976a46d74a = $(`<div id="html_258b0ad1ab7a6c25775a9b976a46d74a" style="width: 100.0%; height: 100.0%;"><h4>Antwerp: Skull with a Burning Cigarette(1885-86)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Kop_van_een_skelet_met_brandende_sigaret_-_s0083V1962_-_Van_Gogh_Museum.jpg" width="200px"></div>`)[0];
+                popup_f37f6df05d69745ffa6ef8ed2215284d.setContent(html_258b0ad1ab7a6c25775a9b976a46d74a);
+            
+        
+
+        circle_marker_5d0b4f92a8ef703fe39158fa68e1cfac.bindPopup(popup_f37f6df05d69745ffa6ef8ed2215284d)
+        ;
+
+        
+    
+    
+            var circle_marker_7ffa7314530c2d5ff6e85632fce53cfc = L.circleMarker(
+                [52.7092188, 6.8659616],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_2e867a0ec4bf4770311f9c8ef0610bf2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5dc32d8f733f6f547606fa2ba52d287d = $(`<div id="html_5dc32d8f733f6f547606fa2ba52d287d" style="width: 100.0%; height: 100.0%;"><h4>Nieuw-Amsterdam: Two Women in the Veen(1883)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Twee_vrouwen_in_het_veen_-_s0129V1962_-_Van_Gogh_Museum.jpg" width="200px"></div>`)[0];
+                popup_2e867a0ec4bf4770311f9c8ef0610bf2.setContent(html_5dc32d8f733f6f547606fa2ba52d287d);
+            
+        
+
+        circle_marker_7ffa7314530c2d5ff6e85632fce53cfc.bindPopup(popup_2e867a0ec4bf4770311f9c8ef0610bf2)
+        ;
+
+        
+    
+    
+            var circle_marker_25f0cea37665d509d29293048443c1ba = L.circleMarker(
+                [52.8573817, 6.8066461],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_e8976470ce06f4a93859c0db2fdd7a8f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d46b54c0092e4daf2366ceed8fb5e803 = $(`<div id="html_d46b54c0092e4daf2366ceed8fb5e803" style="width: 100.0%; height: 100.0%;"><h4>Drenthe: Bauer, Burning Weeds(1883)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Van_Gogh_-_Bauer%2C_Unkraut_verbrennend.jpeg" width="200px"></div>`)[0];
+                popup_e8976470ce06f4a93859c0db2fdd7a8f.setContent(html_d46b54c0092e4daf2366ceed8fb5e803);
+            
+        
+
+        circle_marker_25f0cea37665d509d29293048443c1ba.bindPopup(popup_e8976470ce06f4a93859c0db2fdd7a8f)
+        ;
+
+        
+    
+    
+            var circle_marker_ea84fc427d9b40f011363be0a0b6031a = L.circleMarker(
+                [52.1033162, 4.3033528],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_9a793ba1f518b7cf7c82af82b858f76f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5967084ae82e0aa23358d2ec49d49e9f = $(`<div id="html_5967084ae82e0aa23358d2ec49d49e9f" style="width: 100.0%; height: 100.0%;"><h4>Scheveningen: Seascape at Scheveningen(1882)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Zeegezicht_bij_Scheveningen_-_s0416M1990_-_Van_Gogh_Museum.jpg" width="200px"></div>`)[0];
+                popup_9a793ba1f518b7cf7c82af82b858f76f.setContent(html_5967084ae82e0aa23358d2ec49d49e9f);
+            
+        
+
+        circle_marker_ea84fc427d9b40f011363be0a0b6031a.bindPopup(popup_9a793ba1f518b7cf7c82af82b858f76f)
+        ;
+
+        
+    
+    
+            var circle_marker_6421c1e5b567e949fccb43a8a38d5f85 = L.circleMarker(
+                [48.85809, 2.35299],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_e5facf853967bc3899827ee756cfb219 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_53c11a69882da01333828d8e02040687 = $(`<div id="html_53c11a69882da01333828d8e02040687" style="width: 100.0%; height: 100.0%;"><h4>Paris: Self-Portrait(1887)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Zelfportret_Rijksmuseum_SK-A-3262.jpeg" width="200px"></div>`)[0];
+                popup_e5facf853967bc3899827ee756cfb219.setContent(html_53c11a69882da01333828d8e02040687);
+            
+        
+
+        circle_marker_6421c1e5b567e949fccb43a8a38d5f85.bindPopup(popup_e5facf853967bc3899827ee756cfb219)
+        ;
+
+        
+    
+    
+            var circle_marker_8f31b187fe8f75b19937941e9c755f85 = L.circleMarker(
+                [52.3519145, 4.9146943],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_38ee70516c3a803dc4f5ea5e9ee910f8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_059af7cdec060e94194fc8073be383fc = $(`<div id="html_059af7cdec060e94194fc8073be383fc" style="width: 100.0%; height: 100.0%;"><h4>Amsterdam: De Ruijterkade, Amsterdam(1885)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/De_Ruijterkade_te_Amsterdam_-_s0085V1962_-_Van_Gogh_Museum.jpg" width="200px"></div>`)[0];
+                popup_38ee70516c3a803dc4f5ea5e9ee910f8.setContent(html_059af7cdec060e94194fc8073be383fc);
+            
+        
+
+        circle_marker_8f31b187fe8f75b19937941e9c755f85.bindPopup(popup_38ee70516c3a803dc4f5ea5e9ee910f8)
+        ;
+
+        
+    
+    
+            var circle_marker_ea5e1203a76c24aaba010ee335621568 = L.circleMarker(
+                [52.0800368, 4.2699613],
+                {"bubblingMouseEvents": true, "color": "#325C74", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4A777A", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_456d12395a31ee41222aa70c181a9f7c);
+        
+    
+        var popup_81e475c8ba7ac13fc5314f6ab3284671 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_046ec6221a452474b10e145e792449cf = $(`<div id="html_046ec6221a452474b10e145e792449cf" style="width: 100.0%; height: 100.0%;"><h4>The Hague: Bulb Fields(1883)</h4><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Bulb_Fields.jpg" width="200px"></div>`)[0];
+                popup_81e475c8ba7ac13fc5314f6ab3284671.setContent(html_046ec6221a452474b10e145e792449cf);
+            
+        
+
+        circle_marker_ea5e1203a76c24aaba010ee335621568.bindPopup(popup_81e475c8ba7ac13fc5314f6ab3284671)
+        ;
+
+        
+    
+</script>
+</html>
