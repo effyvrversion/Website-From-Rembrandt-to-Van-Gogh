@@ -955,8 +955,10 @@ input, select, textarea {
 /* Image */
 
 	.image {
+		
 		position: relative;
 		display: inline-block;
+		
 	}
 
 		.image:before {
@@ -2302,7 +2304,7 @@ input, select, textarea {
 	}
 	.left-image {
 		float: left;
-		width: 80%;
+		width: 50%;
 		margin: 20px;
 	  }
 
@@ -2325,6 +2327,9 @@ input, select, textarea {
   
   .right-image {
 	margin-right: 10px;
+	float: right;
+	width: 50%;
+	
   }
 	  
   #work {
@@ -2521,6 +2526,8 @@ main {
     text-align: center;
 	color: #fff;
   }
+
+
 
   .metadata tableau-viz {
 	width: 100%;
